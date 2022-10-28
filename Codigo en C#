@@ -1,0 +1,96 @@
+using System;
+
+public class Program
+{
+ class progam
+{
+     static void Main (string[]args){
+
+
+			int a;
+			int llamain;
+			int llamaloc;
+			int llamana;
+			int llamana2;
+			double op;
+			double op2;
+			double op3;
+			double opp;
+			double total;
+			double totin;
+			double totloc;
+			double totna;
+			llamain = 10;
+			llamana = 20;
+			llamana2 = 15;
+			llamaloc = 35;
+			op = 3*5.08;
+			totin = 10.48+op;
+			opp = 25*0.48;
+			totna = 3.50+opp;
+			op2 = 2*0.40;
+			totloc = op2;
+			op3 = llamana+llamana2;
+			total = totin+totloc+totna;
+
+
+			do {
+				Console.WriteLine("Seleccione una opcion:");
+				Console.WriteLine("1. Ver sus llamadas");
+				Console.WriteLine("2. Ver factura/estado de cuenta");
+				Console.WriteLine("3. Salir");
+				a = Convert.ToInt32(Console.ReadLine());
+				Console.Write(" ");
+				Console.Clear();
+				switch (a) {
+				case 1:
+					Console.WriteLine("--------- Registro de llamadas -----------");
+					Console.WriteLine("- Llamadas internacionales (en minutos):  -");
+					Console.WriteLine("- "+llamain+"                                       -");
+					Console.WriteLine("- Llamadas Nacionales (en minutos):       -");
+					Console.WriteLine("- "+llamana+"                                       -");
+					Console.WriteLine("- "+llamana2+"                                      -");
+					Console.WriteLine("- Llamadas locales:                       -");
+					Console.WriteLine("- "+llamaloc+"                                      -");
+					Console.WriteLine("-------- Presione 1 para volver -----------");
+					Console.ReadKey();
+					Console.Clear();
+					break;
+				case 2:
+					Console.WriteLine("*-*-*-*-*-*-*-* Factura *-*-*-*-*-*-*-*-*-*");
+					Console.WriteLine("*          Compañia Grupo 5               *");
+					Console.WriteLine("*                                         *");
+					Console.WriteLine("* Nombre: Juan Jimenez                    *");
+					Console.WriteLine("* Nit: 654276-2                           *");
+					Console.WriteLine("*                                         *");
+					Console.WriteLine("* Direccion: Ciudad                       *");
+					Console.WriteLine("*                                         *");
+					Console.WriteLine("*_________Registro de llamadas____________*");
+					Console.WriteLine("* Llamadas Internacionales                *");
+					Console.WriteLine("* Minutos hablados:"+llamain+"                     *");
+					Console.WriteLine("* Llamadas Nacionales                     *");
+					Console.WriteLine("* Minutos hablados: "+op3+"                    *");
+					Console.WriteLine("* Llamadas Locales                        *");
+					Console.WriteLine("* Llamadas realizadas: "+llamaloc+"                 *");
+					Console.WriteLine("*_________________________________________*");
+					Console.WriteLine("* Subtotal: "+total+"                         *");
+					Console.WriteLine("* Total a pagar: "+total+"                    *");
+					Console.WriteLine("*_________Dev: grupo5company______________*");
+					Console.WriteLine("*                                         *");
+					Console.WriteLine("* Fecha limite: 29/10/2022                *");
+					Console.WriteLine("*-*-+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-");
+					Console.ReadKey();
+					Console.Clear();
+					break;
+				case 3:
+					Console.WriteLine("Adios!");
+					break;
+				default:
+					Console.WriteLine("No eligio ninguna opcion");
+                    break;
+				}
+			} while (a!=3);
+		}
+
+	}
+}
