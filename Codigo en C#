@@ -5,7 +5,7 @@ public class Program
  class progam
 {
      static void Main (string[]args){
-
+/////////o.o
 
 			int a;
 			int llamain;
