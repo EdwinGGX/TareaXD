@@ -52,7 +52,7 @@ public class Program
 					Console.WriteLine("- "+llamana2+"                                      -");
 					Console.WriteLine("- Llamadas locales:                       -");
 					Console.WriteLine("- "+llamaloc+"                                      -");
-					Console.WriteLine("-------- Presione 1 para volver -----------");
+					Console.WriteLine("-------- Presione cualquier tecla -----------");
 					Console.ReadKey();
 					Console.Clear();
 					break;
