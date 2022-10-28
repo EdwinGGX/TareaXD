@@ -15,7 +15,7 @@ Algoritmo Proyecto_Final
 	total = TotIn+TotLoc+TotNa
 	
 	Repetir
-	Escribir "Seleccione una opción:"
+	Escribir "Seleccione una opciÃ³n:"
 	Escribir "1. Ver sus llamadas"
 	Escribir "2. Ver factura/estado de cuenta"
 	Escribir "3. Salir"
@@ -32,18 +32,18 @@ Algoritmo Proyecto_Final
 			Escribir "- ",llamaNa2 ,"                                      -"
 			Escribir "- Llamadas locales:                       -"
 			Escribir "- ",LlamaLoc,"                                      -"
-			Escribir "-------- Presione 1 para volver -----------"
+			Escribir "-------- Presione cual quier tecla -----------"
 			Esperar Tecla
 			Limpiar Pantalla;
 			
 		2:
 			Escribir "*-*-*-*-*-*-*-* Factura *-*-*-*-*-*-*-*-*-*"
-			Escribir "*          Compañia Grupo 5               *"
+			Escribir "*          CompaÃ±ia Grupo 5               *"
 			Escribir "*                                         *"
 			Escribir "* Nombre: Juan Jimenez                    *"
 			Escribir "* Nit: 654276-2                           *"
 			Escribir "*                                         *"
-			Escribir "* Dirección: Ciudad                       *"
+			Escribir "* DirecciÃ³n: Ciudad                       *"
 			Escribir "*                                         *"
 			Escribir "*_________Registro de llamadas____________*"
 			Escribir "* Llamadas Internacionales                *"
@@ -65,7 +65,7 @@ Algoritmo Proyecto_Final
 			Escribir "Adios";
 			
 		De Otro Modo:
-			Escribir "No eligio ninguna opción"
+			Escribir "No eligio ninguna opciÃ³n"
 	FinSegun
 Hasta Que a = 3
 	
